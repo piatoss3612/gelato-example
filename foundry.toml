@@ -2,5 +2,7 @@
 src = "src"
 out = "out"
 libs = ["lib"]
-
+remappings = ["vrf-contracts/=lib/vrf-contracts/contracts/"]
+[rpc_endpoints]
+zkyoto = "${ZKYOTO_RPC_URL}"
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
